@@ -1,15 +1,22 @@
 import React from "react";
+import {useHistory } from "react-router-dom";
 
 //Assets
 import inicioImg from "../assets/inicioImg.jpg";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 
 export const InicioPage = () => {
+  const history=useHistory();
   const { height, width } = useWindowDimensions();
+
+  const irAPiramide=()=>{
+    history.push('/piramide');
+    //console.log('clic')
+  }
 
   return (
     <div
-      
+      //style={{backgroundColor:'red'}}
     >
        <img
         src={inicioImg}
@@ -29,13 +36,15 @@ export const InicioPage = () => {
           height:118/2,
           width:320/2
       }}>
-        <button
+        
+        <button className="btn btn-info"
           style={{
             borderRadius: 8,
-            backgroundColor: "#c9dee6",
+            //backgroundColor: "#c9dee6",
             //borderColor: "transparent",
             fontSize: 36,
           }}
+          onClick={irAPiramide}
         >
           INICIAR
         </button>
