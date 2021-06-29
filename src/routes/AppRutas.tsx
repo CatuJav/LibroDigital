@@ -9,7 +9,7 @@ import {
     Redirect
   } from "react-router-dom";
 import { Ejercicios1Page } from '../pages/Ejercicios1Page';
-
+import { ManipularCargas } from '../pages/ManipularCargasPage';
 import { CargarDanio } from '../pages/CargarDanio';
 import { AlimentacioSanaPage } from '../pages/AlimentacioSanaPage';
 
@@ -23,7 +23,7 @@ export const AppRutas = () => {
 
           <Route path='/ejercicios1' component={Ejercicios1Page}/>
 
-
+          <Route path='/ManipulacionCargas' component={ManipularCargas}/>
           
           <Route path='/cargaD' component={CargarDanio}/>
 
