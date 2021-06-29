@@ -2,6 +2,9 @@ import React from 'react'
 import { useHistory } from 'react-router-dom';
 import useWindowDimensions from '../hooks/useWindowDimensions';
 
+import piramideImg from '../assets/piramideImg.png';
+
+
 export const PiramidePage = () => {
     const history=useHistory();
     const { height, width } = useWindowDimensions();
@@ -10,9 +13,15 @@ export const PiramidePage = () => {
         history.push('/')
       }
     return (
-        <div style={{backgroundColor:'darkgreen', height, width}}>
-            <h1>Piramide Page</h1>
-
+        <div style={{backgroundColor:'#2B9C2E', width,height}} >
+            <div className="row">
+              <div className="col-8" style={{backgroundColor:'blue'}}>
+                <img src={piramideImg} width="100%" />
+              </div>
+              <div className="col-4" style={{backgroundColor:'red', height:10}}>
+                <div></div>
+              </div>
+            </div>
             <button className="btn btn-info"
           style={{
             borderRadius: 8,
