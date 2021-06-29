@@ -8,6 +8,7 @@ import {
     Link,
     Redirect
   } from "react-router-dom";
+import { ManipularCargas } from '../pages/ManipularCargasPage';
 
 export const AppRutas = () => {
     return (
@@ -16,7 +17,7 @@ export const AppRutas = () => {
        
         {/*Poner los enlaces antes de / porque sino solo se redirige a raiz*/}
         <Switch>
-          
+          <Route path='/ManipulacionCargas' component={ManipularCargas}/>
           <Route path='/piramide' component={PiramidePage}/>
           <Route path='/' component={InicioPage}/>
 
