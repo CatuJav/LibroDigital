@@ -8,7 +8,9 @@ import {
     Link,
     Redirect
   } from "react-router-dom";
+
 import { CargarDanio } from '../pages/CargarDanio';
+import { AlimentacioSanaPage } from '../pages/AlimentacioSanaPage';
 
 export const AppRutas = () => {
     return (
@@ -17,8 +19,12 @@ export const AppRutas = () => {
        
         {/*Poner los enlaces antes de / porque sino solo se redirige a raiz*/}
         <Switch>
+
           
           <Route path='/cargaD' component={CargarDanio}/>
+
+          <Route path='/sana' component={AlimentacioSanaPage}/>
+
           <Route path='/piramide' component={PiramidePage}/>
           <Route path='/' component={InicioPage}/>
 
