@@ -15,6 +15,7 @@ import { Ejercicios1Page } from '../pages/Ejercicios1Page';
 import { ManipularCargas } from '../pages/ManipularCargasPage';
 import { CargarDanio } from '../pages/CargarDanio';
 import { AlimentacioSanaPage } from '../pages/AlimentacioSanaPage';
+import { ManipularCargasS } from '../pages/ManipularCargasS';
 
 export const AppRutas = () => {
     return (
@@ -32,6 +33,8 @@ export const AppRutas = () => {
           <Route path='/ManipulacionCargas' component={ManipularCargas}/>
           
           <Route path='/cargaD' component={CargarDanio}/>
+
+          <Route path='/manipularCargaD' component={ManipularCargasS}/>
 
           <Route path='/sana' component={AlimentacioSanaPage}/>
 
