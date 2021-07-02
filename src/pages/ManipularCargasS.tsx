@@ -3,11 +3,15 @@ import useWindowDimensions from "../hooks/useWindowDimensions";
 import { useHistory } from "react-router-dom";
 import manipularcargas from "../assets/manipulacionCargas.png";
 import chicomochila from "../assets/chicoconmochila.png";
+import '../themes/estilos.css';
 
 
 export const ManipularCargasS = () => {
     const { height, width } = useWindowDimensions();
     const history = useHistory();
+    const irAnterior=()=>{
+        history.push("/cargaD");
+      }
     const irSiguiente=()=>{
         history.push("/ManipulacionCargas");
       }
@@ -63,22 +67,32 @@ export const ManipularCargasS = () => {
                         <br/><br/><br/><br/><br/>
                         <div className="row">
                             
-                            <div className="col-7">
-                            </div>
-                            <div className="col-5">
+                            <div className="col-3">
                                 <button
-                                className="btn btn-info"
+                                className="grow_ellipse"
                                 style={{
-                                borderRadius: 8,
-                                //backgroundColor: "#c9dee6",
-                                //borderColor: "transparent",
-                                fontSize: 30,
+                                borderRadius: 30,
+                                fontSize: 25,
+                                }}
+                                onClick={irAnterior}
+                                >
+                                    Anterior
+                                </button>
+                            </div>
+                            <div className="col-4"></div>
+                            <div className="col-2">
+                                <button
+                                className="grow_ellipse"
+                                style={{
+                                borderRadius: 30,
+                                fontSize: 25,
                                 }}
                                 onClick={irSiguiente}
                                 >
                                     Siguiente
                                 </button>
                             </div>
+                            <div className="col-3"></div>
                        
                         </div>
                     </div>

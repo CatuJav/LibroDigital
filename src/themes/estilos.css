@@ -1,0 +1,50 @@
+button {
+    font-size: 2em;
+    background: #11A4D9;
+    color: #fff;
+    border: 0.25rem solid #0FB3EB;
+    padding: 0.30em 0.75em;
+    margin: 1rem;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  button:hover {
+    color: #ffffff;
+  }
+  button::after {
+    content: "";
+    background: #1C8AB2;
+    position: absolute;
+    z-index: -1;
+    padding: 0.85em 0.75em;
+    display: block;
+  }
+  button[class^="slide"]::after {
+    transition: all 0.35s;
+  }
+  button[class^="slide"]:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all 0.35s;
+  }
+  button[class^="grow"]::after {
+    transition: all 0.3s ease;
+  }
+  button[class^="grow"]:hover::after {
+    transition: all 0.3s ease-out;
+  }
+button.grow_ellipse::after {
+    border-radius: 50%;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    line-height: 8.34em;
+    transform: scale(0, 0);
+  }
+  button.grow_ellipse:hover::after {
+    transform: scale(1, 1);
+  }
