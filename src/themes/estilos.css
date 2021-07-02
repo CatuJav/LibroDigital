@@ -1,50 +1,61 @@
-button {
-    font-size: 2em;
-    background: #11A4D9;
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
     color: #fff;
-    border: 0.25rem solid #0FB3EB;
-    padding: 0.30em 0.75em;
-    margin: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
     position: relative;
-    z-index: 1;
     overflow: hidden;
+    z-index: 1;
+    border: none;
   }
-  button:hover {
-    color: #ffffff;
-  }
-  button::after {
+  .button:after {
     content: "";
-    background: #1C8AB2;
     position: absolute;
-    z-index: -1;
-    padding: 0.85em 0.75em;
-    display: block;
-  }
-  button[class^="slide"]::after {
-    transition: all 0.35s;
-  }
-  button[class^="slide"]:hover::after {
-    left: 0;
-    right: 0;
-    top: 0;
     bottom: 0;
-    transition: all 0.35s;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 171, 211);
+    border-radius: 10rem;
+    z-index: -2 ;
   }
-  button[class^="grow"]::after {
-    transition: all 0.3s ease;
+  .button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
   }
-  button[class^="grow"]:hover::after {
-    transition: all 0.3s ease-out;
+  .button:hover {
+    color: #fff;
   }
-button.grow_ellipse::after {
-    border-radius: 50%;
-    left: -50%;
-    right: -50%;
-    top: -150%;
-    bottom: -150%;
-    line-height: 8.34em;
-    transform: scale(0, 0);
+  .button:hover:before {
+    width: 100%;
   }
-  button.grow_ellipse:hover::after {
-    transform: scale(1, 1);
-  }
+  a:link {
+    text-decoration: none;
+}
+  a:hover {
+    text-decoration: none;
+}
+.button{
+    margin-top: 10px;
+}
+#anterior{
+  float:left;
+  margin-left: -10px;
+}
+#siguiente{
+ float:right;
+ margin-right: -10px;
+}

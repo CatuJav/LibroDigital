@@ -17,7 +17,7 @@ export const ManipularCargasS = () => {
       }
     return (
         <div className="m-0 vh-100 row justify-content-center align-items-center" style={{ backgroundColor: "#83C4D7", width, height }}>
-            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'85%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
+            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'92%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
                 <div className="row">
                     <div className="container">
                         <img src={manipularcargas} width="75%" />
@@ -67,34 +67,35 @@ export const ManipularCargasS = () => {
                         <br/><br/><br/><br/><br/>
                         <div className="row">
                             
-                            <div className="col-3">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-6">
+                        <div className="float-md-left">
                                 <button
-                                className="grow_ellipse"
-                                style={{
-                                borderRadius: 30,
-                                fontSize: 25,
-                                }}
+                                className="button"
                                 onClick={irAnterior}
+                                id="anterior"
                                 >
                                     Anterior
                                 </button>
-                            </div>
-                            <div className="col-4"></div>
-                            <div className="col-2">
-                                <button
-                                className="grow_ellipse"
-                                style={{
-                                borderRadius: 30,
-                                fontSize: 25,
-                                }}
-                                onClick={irSiguiente}
-                                >
-                                    Siguiente
-                                </button>
-                            </div>
-                            <div className="col-3"></div>
-                       
-                        </div>
+                         </div>
+                    </div>
+                    
+                    <div className="col-6">
+                    <div className="float-md-right">
+                    <button
+                            className="button"
+                            onClick={irSiguiente}
+                            id="siguiente"
+                            >
+                            Siguiente
+                            </button>
+                    </div>
+                            
+                    
                     </div>
                 </div>
             </div>
