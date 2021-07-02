@@ -18,7 +18,7 @@ export const Ejercicios4Page = () => {
     return (
         <div className="fondo">
             <div className="divtitulo">DESCANSO</div>
-            <div className="diva">
+            <div className="divvideo">
             
             </div>
             <div className="divcontenido">

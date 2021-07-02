@@ -3,6 +3,7 @@ import {useHistory } from "react-router-dom";
 import '../App.css';
 import playImg from "../assets/play.png";
 import niniosImg from "../assets/ninios2.jpg";
+
 export const Ejercicios2Page = () => {
     const history=useHistory();
 
@@ -17,9 +18,11 @@ export const Ejercicios2Page = () => {
 
     return (
         <div className="fondo">
-            <div className="divtitulo">EJERCICIO</div>
-            <div className="diva">
             
+
+            <div className="divtitulo">EJERCICIO</div>
+            <div className="divvideo">
+          
                
                
             </div>
