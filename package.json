@@ -45,23 +45,14 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://./",
+  "homepage": "./",
   "main": "src/electron-starter.js",
   "devDependencies": {
+    "@types/bootstrap": "^5.0.16",
     "@types/react-router-dom": "^5.1.7",
     "concurrently": "^6.2.0",
     "cross-env": "^7.0.3",
     "electron": "^12.0.9",
     "electron-packager": "^15.2.0"
-  },
-  "description": "**Note: this is a one-way operation. Once you `eject`, you can’t go back!**",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CatuJav/LibroDigital.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CatuJav/LibroDigital/issues"
   }
 }
