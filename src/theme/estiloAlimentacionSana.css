@@ -1,97 +1,61 @@
-.fondo{
-    background-color: #83C4D7;
-    position:absolute;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    height:100%;
-    width:100%;
+.buttonC {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
   }
-
-
-    .divvideo {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        position:relative;
-        height: 5%;
-        left: 75%;
-        width: 15%;
-        
-        
-        text-align: center;
-    }
-    .divtitulo {
-        margin-top: 1%;
-        margin-bottom: 2%;
-        position:absolute;
-        left: 10%;
-        width: 10%;
-        text-align: center;
-        color: black;
-        font-weight: bold;
-        font-size: 40px;
-    }
-    .divcontenido {
-        background-color: #1F4C4F;
-        left: 7%;
-        width: 86%;
-        position:relative;
-        border-radius: 20px;
-        height: 74%;
-    }
-    .divsiguiente {
-       margin-top: 2%;
-        margin-bottom: 2%;
-        position:relative;
-        left: 75%;
-        width: 15%;
-        height: 5%;
-        text-align: center;
-    }
-    .divanterior {
-        margin-top: 2%;
-        margin-bottom: 2%;
-        position:absolute;
-        left: 10%;
-        width: 15%;
-        text-align: center;
-        color: black;
-        font-weight: bold;
-        
-     }
-    .divImagen {
-        color: white;
-      
-        position:absolute;
-        width: 50%;
-        left: 50%;
-     }
-     .divf {
-        color: white;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        position:absolute;
-        width: 50%;
-        
-    }
-    .botonvideo{
-        background-color: #C9DEE6;
-        border-color: #527BB0;
-        border-radius: 20px;
-        font-weight: bold;
-        width: 100%;
-        
-    }
-
-
-    .divtexto {
-        
-        margin-top: 10%;
-        margin-bottom: 20%;
-        margin-right: 10%;
-        margin-left: 10%;
-        font-size: 40px;
-        position:relative;
-       text-align: center;
-    }
+  .buttonC:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10rem;
+    z-index: -2 ;
+  }
+  .buttonC:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .buttonC:hover {
+    color: #fff;
+  }
+  .buttonC:hover:before {
+    width: 100%;
+  }
+  a:link {
+    text-decoration: none;
+}
+  a:hover {
+    text-decoration: none;
+}
+.buttonC{
+    margin-top: 10px;
+}
+#anterior{
+  float:left;
+  margin-left: -10px;
+}
+#siguiente{
+ float:right;
+ margin-right: -10px;
+}

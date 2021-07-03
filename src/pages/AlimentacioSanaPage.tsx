@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import "../theme/estiloAlimentacionSana.css";
 import video6 from "../assets/videosPiramide/6Saludable.mp4";
 import useWindowDimensions from "../hooks/useWindowDimensions";
+import '../themes/estilos.css';
 export const AlimentacioSanaPage = () => {
   const history = useHistory();
   const { height, width } = useWindowDimensions();
@@ -11,7 +12,7 @@ export const AlimentacioSanaPage = () => {
     history.push("/piramide");
   };
   const irSiguiente = () => {
-    history.push("/ejercicio1");
+    history.push("/ejercicios1");
   };
   const text=(<p>🥦La alimentación de un niño para mantener un cuerpo sano es una de las cosas mas importantes.
     <br/>🍗No olvides nunca el desayuno.<br/>
@@ -46,12 +47,12 @@ export const AlimentacioSanaPage = () => {
         <div className="" style={{height:100,display:'flex', flexDirection:'row',justifyContent:'space-around', alignItems:'center'}}>
           <div className="">
             <button
-              className="btn btn-info"
+              className="button"
               style={{
-                borderRadius: 8,
+                //borderRadius: 8,
                 //backgroundColor: "#c9dee6",
                 //borderColor: "transparent",
-                fontSize: 30,
+                //fontSize: 30,
               }}
               onClick={irAnterior}
             >
@@ -60,12 +61,12 @@ export const AlimentacioSanaPage = () => {
           </div>
           <div className="">
             <button
-              className="btn btn-info"
+              className="button"
               style={{
-                borderRadius: 8,
+                //borderRadius: 8,
                 //backgroundColor: "#c9dee6",
                 //borderColor: "transparent",
-                fontSize: 30,
+                //fontSize: 30,
                 alignSelf:'end'
               }}
               onClick={irSiguiente}
