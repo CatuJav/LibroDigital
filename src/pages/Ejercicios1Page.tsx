@@ -4,6 +4,7 @@ import '../App.css';
 import playImg from "../assets/play.png";
 import niniosImg from "../assets/ninios1.jpg";
 import video1 from "../assets/ejerciciovideo.mp4";
+import '../themes/estilos.css';
 export const Ejercicios1Page = () => {
     const history=useHistory();
 
@@ -12,7 +13,7 @@ export const Ejercicios1Page = () => {
         //console.log('clic')
       }
       const irAEPaginaCatu=()=>{
-        history.push('/');
+        history.push('/sana');
         //console.log('clic')
       }
 
@@ -49,7 +50,7 @@ export const Ejercicios1Page = () => {
             <div className="divtitulo">EJERCICIO</div>
             <div className="divvideo">
             
-               <button className="botonvideo" data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src={playImg} width="15%" /> VER VIDEO</button>
+               <button className="button" style={{fontSize:15}} data-bs-toggle="modal" data-bs-target="#exampleModal"> <img src={playImg} width="15%" /> VER VIDEO</button>
                
             </div>
             <div className="divcontenido">
@@ -65,10 +66,10 @@ export const Ejercicios1Page = () => {
                 </div>
             </div>
             <div className="divanterior">
-            <button className="botonvideo" onClick={irAEPaginaCatu}>ANTERIOR </button>
+            <button className="button" onClick={irAEPaginaCatu}>ANTERIOR </button>
             </div>
             <div className="divsiguiente">
-            <button className="botonvideo" onClick={irAEjercicios2}>SIGUIENTE </button>
+            <button className="button" onClick={irAEjercicios2}>SIGUIENTE </button>
             </div>
             
             

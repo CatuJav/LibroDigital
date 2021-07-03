@@ -3,11 +3,13 @@ import {useHistory } from "react-router-dom";
 import '../App.css';
 import playImg from "../assets/play.png";
 import niniosImg from "../assets/ninios4.jpg";
+import '../themes/estilos.css';
+
 export const Ejercicios4Page = () => {
     const history=useHistory();
-
+    //TODO: Por el momento va a la pagina del Trax se debe ir a la pagina del Francis
     const irAPaginaFrancis=()=>{
-        history.push('/');
+        history.push('/cargaD');
         //console.log('clic')
       }
       const irAEjercicios3=()=>{
@@ -43,10 +45,10 @@ export const Ejercicios4Page = () => {
                 </div>
             </div>
             <div className="divanterior">
-            <button className="botonvideo" onClick={irAEjercicios3}>ANTERIOR </button>
+            <button className="button" onClick={irAEjercicios3}>ANTERIOR </button>
             </div>
             <div className="divsiguiente">
-            <button className="botonvideo" onClick={irAPaginaFrancis}>SIGUIENTE </button>
+            <button className="button" onClick={irAPaginaFrancis}>SIGUIENTE </button>
             </div>
             
             

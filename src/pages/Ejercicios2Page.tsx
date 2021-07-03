@@ -3,6 +3,7 @@ import {useHistory } from "react-router-dom";
 import '../App.css';
 import playImg from "../assets/play.png";
 import niniosImg from "../assets/ninios2.jpg";
+import '../themes/estilos.css';
 
 export const Ejercicios2Page = () => {
     const history=useHistory();
@@ -44,10 +45,10 @@ export const Ejercicios2Page = () => {
                 </div>
             </div>
             <div className="divanterior">
-            <button className="botonvideo" onClick={irAEjercicios1}>ANTERIOR </button>
+            <button className="button" onClick={irAEjercicios1}>ANTERIOR </button>
             </div>
             <div className="divsiguiente">
-            <button className="botonvideo" onClick={irAEjercicios3}>SIGUIENTE </button>
+            <button className="button" onClick={irAEjercicios3}>SIGUIENTE </button>
             </div>
             
             

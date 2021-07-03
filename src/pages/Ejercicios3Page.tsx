@@ -4,6 +4,8 @@ import '../App.css';
 import playImg from "../assets/play.png";
 import niniosImg from "../assets/ninios3.jpg";
 import video2 from "../assets/descansovideo.mp4";
+import '../themes/estilos.css';
+
 export const Ejercicios3Page = () => {
     const history=useHistory();
 
@@ -64,10 +66,10 @@ export const Ejercicios3Page = () => {
                 </div>
             </div>
             <div className="divanterior">
-            <button className="botonvideo" onClick={irAEjercicios2}>ANTERIOR </button>
+            <button className="button" onClick={irAEjercicios2}>ANTERIOR </button>
             </div>
             <div className="divsiguiente">
-            <button className="botonvideo" onClick={irAEjercicios4}>SIGUIENTE </button>
+            <button className="button" onClick={irAEjercicios4}>SIGUIENTE </button>
             </div>
             
             

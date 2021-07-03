@@ -27,24 +27,24 @@ export const AppRutas = () => {
        
         {/*Poner los enlaces antes de / porque sino solo se redirige a raiz*/}
         <Switch>
+          {/* Efejoto */}
+          <Route path='/lesiones' component={LesionesPage}/>
 
-        <Route path='/lesiones' component={LesionesPage}/>
-
-
+          {/* Conte */}
           <Route path='/ejercicios1' component={Ejercicios1Page}/>
           <Route path='/ejercicios2' component={Ejercicios2Page}/>
           <Route path='/ejercicios3' component={Ejercicios3Page}/>
           <Route path='/ejercicios4' component={Ejercicios4Page}/>
+
+          {/* Gene */}
           <Route path='/ManipulacionCargas' component={ManipularCargas}/>
           
+          {/* Trax */}
           <Route path='/cargaD' component={CargarDanio}/>
-
           <Route path='/manipularCargaD' component={ManipularCargasS}/>
 
+          {/* Catujav */}
           <Route path='/sana' component={AlimentacioSanaPage}/>
-
-
-
           <Route path='/piramide' component={PiramidePage}/>
           <Route path='/' component={InicioPage}/>
           
