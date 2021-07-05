@@ -1,69 +1,66 @@
 import React from 'react'
 import '../pages/estilosFj.css'
-import im1 from '../assets/dolor.png';
-import im2 from '../assets/dolor2.png';
-import im3 from '../assets/dolor3.png';
 
+import im4 from '../assets/dolor4.png';
+import im5 from '../assets/dolor5.png';
+import im6 from '../assets/dolor6.png';
 import { useHistory } from "react-router-dom";
 
 
 
-export const LesionesPage = () => {
+export const Lesiones2Page = () => {
     const history = useHistory();
     const irAnterior=()=>{
-        history.push("/ManipulacionCargas");
+        history.push("/Lesiones");
       }
 const irSiguiente=()=>{
-    history.push("/LesionesB");
+    history.push("/ManipulacionCargas");
   }
     return (
         <div id="fondo">
        <div id="contenedor">
            <div className="title">
            <h1>
-        Principales Lesiones
+           Principales Lesiones
            </h1>
            </div>
        
        <div id="c1">
         <h3>
-            Excesos
+        Hernia Discal
         </h3>
         <section>
-        Las causas más comunes son levantar objetos de forma incorrecta,
-         la mala postura,
-          la falta de ejercicio regular,
-           las fracturas, las hernias de disco o la artritis
+        Afección caracterizada
+         por un problema en el disco cartilaginoso
+          ubicado entre los huesos de la columna vertebral.
             </section>
-            <img  src={im1}
+            <img  id="hernia" src={im5}
             >
 
             </img>
        </div>
        <div id="c2">
        <h3>
-            Lumbago
+            Fractura
         </h3>
         <section>
-        Al  manejar cargas,
-         nuestro cuerpo es sometido a
-        adoptar posturas incorrectas y a efectuar movimientos reiterados,
-           que podrían derivar en molestias y lesiones dolorosas.
+        Puede haber pérdida de funcionalidad.
+El tratamiento generalmente implica volver a colocar el hueso en su lugar e, inmovilizarlo con un yeso o una férula
             </section>
-            <img  src={im2}
+            <img  src={im6}
             >
 
             </img>
        </div>
        <div id="c3">
        <h3>
-            Desgarros
+            Ciatica
         </h3>
         <section>
-        Los síntomas incluyen dolor, hinchazón, espasmos musculares y capacidad limitada para mover el músculo.
-        El tratamiento incluye analgésicos, hielo o el uso de férulas.
+        Dolor que se extiende desde la espalda baja hasta una o ambas piernas.
+Suele ocurrir cuando una hernia de disco o un espolón en la columna vertebral presionan el nervio.
             </section>
-            <img  src={im3}
+            <img  src={im4}
             >
 
             </img>
