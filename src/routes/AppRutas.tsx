@@ -10,7 +10,7 @@ import {
   } from "react-router-dom";
 
 import { LesionesPage } from '../pages/LesionesPage';
-
+import { Lesiones2Page } from '../pages/Lesiones2Page';
 import { Ejercicios1Page } from '../pages/Ejercicios1Page';
 import { Ejercicios2Page } from '../pages/Ejercicios2Page';
 import { Ejercicios3Page } from '../pages/Ejercicios3Page';
@@ -29,8 +29,11 @@ export const AppRutas = () => {
         <Switch>
           {/* Efejoto */}
           <Route path='/lesiones' component={LesionesPage}/>
+          <Route path='/lesiones' component={LesionesPage}/>
+          <Route path='/lesionesb' component={Lesiones2Page}/>
 
           {/* Conte */}
+        
           <Route path='/ejercicios1' component={Ejercicios1Page}/>
           <Route path='/ejercicios2' component={Ejercicios2Page}/>
           <Route path='/ejercicios3' component={Ejercicios3Page}/>
