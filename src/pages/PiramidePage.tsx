@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-import piramideImg from "../assets/piramideImg.png";
+import piramideImg from "../assets/PiramideAlimentacion.png";
 import video1 from "../assets/videosPiramide/grasaYazucar.mp4";
 import video2 from "../assets/videosPiramide/2canesypescados.mp4";
 import video3 from "../assets/videosPiramide/3lacteosfrutossecos.mp4";
