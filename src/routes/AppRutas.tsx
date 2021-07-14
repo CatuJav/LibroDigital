@@ -19,6 +19,8 @@ import { ManipularCargas } from "../pages/ManipularCargasPage";
 import { CargarDanio } from "../pages/CargarDanio";
 import { AlimentacioSanaPage } from "../pages/AlimentacioSanaPage";
 import { ManipularCargasS } from "../pages/ManipularCargasS";
+import { Postura1Page } from '../pages/Postura1Page';
+import { Postura2Page } from "../pages/Postura2Page";
 
 export const AppRutas = () => {
   return (
@@ -31,24 +33,39 @@ export const AppRutas = () => {
           <Route path="/piramide" component={PiramidePage} />
 
 
+
           {/* Conte */}
 
           <Route path="/ejercicios1" component={Ejercicios1Page} />
           <Route path="/ejercicios2" component={Ejercicios2Page} />
           <Route path="/ejercicios3" component={Ejercicios3Page} />
           <Route path="/ejercicios4" component={Ejercicios4Page} />
+          
+
+
+          {/*Jumbo */}
+          <Route path="/postura1" component={Postura1Page}/>
+          <Route path="/postura2" component={Postura2Page}/>
+
+
 
           {/* Efejoto */}
 
           <Route path="/lesiones" component={LesionesPage} />
           <Route path="/lesionesb" component={Lesiones2Page} />
 
+
+
           {/* Trax */}
           <Route path="/cargaD" component={CargarDanio} />
           <Route path="/manipularCargaD" component={ManipularCargasS} />
 
+
+
           {/* Gene */}
           <Route path="/ManipulacionCargas" component={ManipularCargas} />
+
+
 
           {/*NOTA Dejar al último */}
           <Route path="/" component={InicioPage} />

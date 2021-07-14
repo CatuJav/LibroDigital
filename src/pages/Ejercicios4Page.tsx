@@ -9,7 +9,8 @@ export const Ejercicios4Page = () => {
   const history = useHistory();
 
   const irAPaginaFrancis = () => {
-    history.push("/lesiones");
+    history.push("/postura1");
+    //history.push("/lesiones");
     //console.log('clic')
   };
   const irAEjercicios3 = () => {

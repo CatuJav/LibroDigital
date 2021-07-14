@@ -11,7 +11,7 @@ export const LesionesPage = () => {
   const {height,width}=useWindowDimensions();
   const history = useHistory();
   const irAnterior = () => {
-    history.push("/ejercicios4");
+    history.push("/postura1");
   };
   const irSiguiente = () => {
     history.push("/LesionesB");
