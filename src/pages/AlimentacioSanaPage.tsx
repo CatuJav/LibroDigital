@@ -1,6 +1,6 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
-import "../theme/estiloAlimentacionSana.css";
+import "../themes/estiloAlimentacionSana.css";
 import video6 from "../assets/videosPiramide/6Saludable.mp4";
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import '../themes/estilos.css';

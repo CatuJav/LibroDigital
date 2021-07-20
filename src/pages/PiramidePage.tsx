@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-import piramideImg from "../assets/piramideImg.png";
+import piramideImg from "../assets/PiramideAlimentacion.png";
 import video1 from "../assets/videosPiramide/grasaYazucar.mp4";
 import video2 from "../assets/videosPiramide/2canesypescados.mp4";
 import video3 from "../assets/videosPiramide/3lacteosfrutossecos.mp4";
@@ -9,7 +9,7 @@ import video4 from "../assets/videosPiramide/4verdurasfrutas.mp4";
 import video5 from "../assets/videosPiramide/5cereales.mp4";
 import { VideoPiramide } from "../components/VideoPiramide";
 import '../themes/estilos.css';
-import '../theme/estiloAlimentacionSana.css'
+import '../themes/estiloAlimentacionSana.css'
 export const PiramidePage = () => {
   const history = useHistory();
   const { height, width } = useWindowDimensions();
@@ -35,16 +35,16 @@ export const PiramidePage = () => {
       <div className="row">
         <div
           className="col-7"
-          style={{ height: height - 90}}
+          style={{ height: height - 120}}
         >
           <img
             src={piramideImg}
-            style={{ position: "absolute", height: height - 90,marginLeft:90}}
+            style={{ position: "absolute", height: height - 120,marginLeft:90}}
           />
         </div>
         <div className="col-5" >
           <div
-            style={{ display:'flex', flexDirection:'column',justifyContent:'space-evenly',height:height-90}}
+            style={{ display:'flex', flexDirection:'column',justifyContent:'space-evenly',height:height-120}}
           >
             <div>
               <button
@@ -160,7 +160,7 @@ export const PiramidePage = () => {
           </div>
         </div>
       </div>
-      <div className="container" style={{paddingBottom:20}}>
+      <div className="container" style={{paddingBottom:15}}>
         <div className="row" >
           <div className="col align-self-start">
             <button

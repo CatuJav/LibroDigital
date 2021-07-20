@@ -12,7 +12,7 @@ export const CargarDanio = () => {
     const { height, width } = useWindowDimensions();
     const history = useHistory();
     const irAnterior=()=>{
-        history.push("/ejercicios4");
+        history.push("/lesionesb");
       }
     const irSiguiente=()=>{
         history.push("/manipularCargaD");
