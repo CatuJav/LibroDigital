@@ -21,6 +21,8 @@ import { AlimentacioSanaPage } from "../pages/AlimentacioSanaPage";
 import { ManipularCargasS } from "../pages/ManipularCargasS";
 import { Postura1Page } from '../pages/Postura1Page';
 import { Postura2Page } from "../pages/Postura2Page";
+import { PaginaConsecuencias } from "../pages/sebas/PaginaConsecuencias";
+import { ChumbiPage } from "../pages/gene/ChumbiPage";
 
 export const AppRutas = () => {
   return (
@@ -59,12 +61,13 @@ export const AppRutas = () => {
           {/* Trax */}
           <Route path="/cargaD" component={CargarDanio} />
           <Route path="/manipularCargaD" component={ManipularCargasS} />
+          <Route path="/consecuenciasChumbi" component={PaginaConsecuencias} />
 
 
 
           {/* Gene */}
           <Route path="/ManipulacionCargas" component={ManipularCargas} />
-
+          <Route path="/Chumbi" component={ChumbiPage} />
 
 
           {/*NOTA Dejar al último */}
