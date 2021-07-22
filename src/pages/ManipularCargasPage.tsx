@@ -11,7 +11,7 @@ export const ManipularCargas = () => {
   const { height, width } = useWindowDimensions();
   const history = useHistory();
   const irSiguiente = () => {
-    history.push("/");
+    history.push("/usoadecuado");
   };
   const irAtras = () => {
     history.push("/manipularCargaD");
