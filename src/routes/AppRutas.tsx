@@ -21,6 +21,7 @@ import { AlimentacioSanaPage } from "../pages/AlimentacioSanaPage";
 import { ManipularCargasS } from "../pages/ManipularCargasS";
 import { Postura1Page } from '../pages/Postura1Page';
 import { Postura2Page } from "../pages/Postura2Page";
+import { PaginaConsecuencias } from "../pages/sebas/PaginaConsecuencias";
 
 export const AppRutas = () => {
   return (
@@ -59,6 +60,7 @@ export const AppRutas = () => {
           {/* Trax */}
           <Route path="/cargaD" component={CargarDanio} />
           <Route path="/manipularCargaD" component={ManipularCargasS} />
+          <Route path="/consecuenciasChumbi" component={PaginaConsecuencias} />
 
 
 
