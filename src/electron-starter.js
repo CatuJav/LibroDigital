@@ -4,6 +4,7 @@ const path = require('path')
 function createWindow () {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    icon:__dirname+'./assets/libro-electronico.png',
     width: 1366,
     height: 768,
     webPreferences: {

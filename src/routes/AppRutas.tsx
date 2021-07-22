@@ -21,6 +21,7 @@ import { AlimentacioSanaPage } from "../pages/AlimentacioSanaPage";
 import { ManipularCargasS } from "../pages/ManipularCargasS";
 import { Postura1Page } from '../pages/Postura1Page';
 import { Postura2Page } from "../pages/Postura2Page";
+import { PaginaUsoAdecuado } from "../pages/catu/PaginaUsoAdecuado";
 
 export const AppRutas = () => {
   return (
@@ -31,6 +32,7 @@ export const AppRutas = () => {
           {/* Catujav */}
           <Route path="/sana" component={AlimentacioSanaPage} />
           <Route path="/piramide" component={PiramidePage} />
+          <Route path="/usoadecuado" component={PaginaUsoAdecuado} />
 
 
 
