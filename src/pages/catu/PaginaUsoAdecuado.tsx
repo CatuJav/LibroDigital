@@ -9,11 +9,11 @@ export const PaginaUsoAdecuado = () => {
   const history = useHistory();
 
   const irAnterior = () => {
-    history.push("/ejercicios4");
+    history.push("/consecuenciasChumbi");
     //console.log('clic')
   };
   const irSiguiente = () => {
-    history.push("/lesiones");
+    history.push("/");
     //console.log('clic')
   };
 

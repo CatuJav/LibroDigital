@@ -12,10 +12,10 @@ export const ChumbiPage = () => {
         const { height, width } = useWindowDimensions();
     const history = useHistory();
     const irAnterior=()=>{
-        history.push("/manipularCargaD");
+        history.push("/ManipulacionCargas");
       }
     const irSiguiente=()=>{
-        history.push("/consecuenciasChumbi");
+        history.push("/uso1");
       }
     const texto1=(<p><b>Faja que usan las indígenas de sudamérica: Ecuador,Bolivia, Perú y Chile</b>
     </p>);
@@ -39,12 +39,12 @@ export const ChumbiPage = () => {
                
                 <div className="row">
                     <div className="col-4">
-                        <div className="col-auto p-5 text-center" style={{ backgroundColor: '#98B2BA', width: '90%', height:'100%', borderRadius:'10px', marginTop:'-10px'}}>
+                        <div className="col-auto text-center" style={{ width: '90%', height:'100%', borderRadius:'10px', marginTop:'-10px'}}>
                             <br/>
                           <br></br>
                           <br></br>
                             <div className="row">
-                                <img src={chumbi} width="50%" />
+                                <img src={chumbi} height="100%" style={{transform: "rotate(90deg)"}} />
                             </div>
                             <br/><br/>
                             
@@ -69,7 +69,7 @@ export const ChumbiPage = () => {
                       
                     </div>
                     <div className="col-4">
-                        <div className="col-auto p-5 text-center" style={{ backgroundColor: '#98B2BA', width: '90%', height:'100%', borderRadius:'10px', marginTop:'-10px'}}>
+                        <div className="col-auto text-center" style={{ backgroundColor: '#98B2BA', width: '90%', height:'100%', borderRadius:'10px', marginTop:'-10px'}}>
                              <div className="row">
                                 <img src={ninia} width="100%" />
                              </div>

@@ -95,3 +95,18 @@
         position:relative;
        text-align: center;
     }
+
+    .divch1 {
+        color: white;
+      
+        position:absolute;
+        width: 50%;
+        left: 50%;
+     }
+     .divch2 {
+        color: white;
+      
+        position:absolute;
+        width: 50%;
+        left: 0%;
+     }

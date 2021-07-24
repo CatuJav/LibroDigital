@@ -24,6 +24,8 @@ import { Postura2Page } from "../pages/Postura2Page";
 import { PaginaUsoAdecuado } from "../pages/catu/PaginaUsoAdecuado";
 import { PaginaConsecuencias } from "../pages/sebas/PaginaConsecuencias";
 import { ChumbiPage } from "../pages/gene/ChumbiPage";
+import { UsoChumbi1 } from "../pages/conte/UsoChumbi1";
+import { UsoChumbi2 } from "../pages/conte/UsoChumbi2";
 
 export const AppRutas = () => {
   return (
@@ -44,7 +46,8 @@ export const AppRutas = () => {
           <Route path="/ejercicios2" component={Ejercicios2Page} />
           <Route path="/ejercicios3" component={Ejercicios3Page} />
           <Route path="/ejercicios4" component={Ejercicios4Page} />
-          
+          <Route path="/uso1" component={UsoChumbi1} />
+          <Route path="/uso2" component={UsoChumbi2} />
 
 
           {/*Jumbo */}
