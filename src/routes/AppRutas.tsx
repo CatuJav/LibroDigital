@@ -15,6 +15,8 @@ import { Ejercicios1Page } from '../pages/Ejercicios1Page';
 import { ManipularCargas } from '../pages/ManipularCargasPage';
 import { CargarDanio } from '../pages/CargarDanio';
 import { AlimentacioSanaPage } from '../pages/AlimentacioSanaPage';
+import { PupitrePage } from '../pages/PupitrePage';
+import { CuidadoPage } from '../pages/CuidadoPage';
 
 export const AppRutas = () => {
     return (
@@ -34,8 +36,8 @@ export const AppRutas = () => {
           <Route path='/cargaD' component={CargarDanio}/>
 
           <Route path='/sana' component={AlimentacioSanaPage}/>
-
-
+          <Route path='/pupitre' component={PupitrePage}/>
+          <Route path='/cuidado' component={CuidadoPage}/>
 
           <Route path='/piramide' component={PiramidePage}/>
           <Route path='/' component={InicioPage}/>
