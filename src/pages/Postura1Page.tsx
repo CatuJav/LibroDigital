@@ -14,7 +14,7 @@ export const Postura1Page = () => {
     //console.log('clic')
   };
   const irSiguiente = () => {
-    history.push("/lesiones");
+    history.push("/pupitre");
     //console.log('clic')
   };
   return (

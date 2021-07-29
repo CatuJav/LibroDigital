@@ -7,6 +7,8 @@ function createWindow () {
     icon:__dirname+'./assets/libro-electronico.png',
     width: 1366,
     height: 768,
+    resizable:false,
+    autoHideMenuBar:true,
     webPreferences: {
       nodeIntegration:true,
       enableRemoteModule:true,
@@ -19,7 +21,7 @@ function createWindow () {
   mainWindow.loadURL(process.env.ELECTRON_START_URL ||`file://${path.join(__dirname, '../build/index.html')}`)
   //console.log(`file://${path.join(__dirname, '../build/index.html')}`+"====================DSAJB================")
   // Open the DevTools.
-  mainWindow.webContents.openDevTools({mode:'right'})
+  //mainWindow.webContents.openDevTools({mode:'right'})
 }
 
 // This method will be called when Electron has finished
