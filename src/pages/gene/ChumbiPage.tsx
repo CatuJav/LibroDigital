@@ -22,7 +22,7 @@ export const ChumbiPage = () => {
     
     
     return (
-        <div className="m-0 vh-100 row justify-content-center align-items-center" style={{ backgroundColor: "#83C4D7", width, height}}>
+        <div className="m-0 vh-100 row justify-content-center " style={{ backgroundColor: "#83C4D7", width, height}}>
            <div >
            <div  className="row">
            <div className="col-4">
@@ -35,7 +35,7 @@ export const ChumbiPage = () => {
                
             </div>
             </div>
-            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#1F4C4F', width: '90%', height:'75%', borderRadius:'30px'}}>
+            <div className="col-auto p-4 text-center" style={{ backgroundColor: '#1F4C4F', width: '90%', height:'65%', borderRadius:'30px'}}>
                
                 <div className="row">
                     <div className="col-4">
@@ -56,7 +56,7 @@ export const ChumbiPage = () => {
                     <br></br>
                         <div className="row">
                         
-                            <div className="container-fluid row p-5 text-center" style={{ backgroundColor: '#98B2BA', width: '100%', height:'75%', borderRadius:'10px', marginTop:'-10px'}}>
+                            <div className="container-fluid row p-4 text-center" style={{ backgroundColor: '#98B2BA', width: '100%', height:'75%', borderRadius:'10px', marginTop:'-10px'}}>
                             
                             <div className="row" style={{color:"white",fontSize:30, textAlign:'center' }}>
                             {texto1}
@@ -79,7 +79,7 @@ export const ChumbiPage = () => {
                 </div>
             </div>
 
-                <div className="row">
+                <div className="row pb-5">
                         <div className="col-6">
                             <div className="float-md-left">
                                     <button

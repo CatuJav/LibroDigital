@@ -38,7 +38,7 @@
         width: 86%;
         position:relative;
         border-radius: 20px;
-        height: 74%;
+        height: 69%;
     }
     .divsiguiente {
        margin-top: 2%;
@@ -62,7 +62,7 @@
      }
     .divImagen {
         color: white;
-      
+        border-radius: 20px;
         position:absolute;
         width: 50%;
         left: 50%;
@@ -109,4 +109,8 @@
         position:absolute;
         width: 50%;
         left: 0%;
+     }
+
+     .imagenesCuadros{
+         border-radius: 20px;
      }

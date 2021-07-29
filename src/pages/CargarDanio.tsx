@@ -18,8 +18,8 @@ export const CargarDanio = () => {
         history.push("/manipularCargaD");
       }
     return (
-        <div className="m-0 vh-100 row justify-content-center align-items-center" style={{ backgroundColor: "#83C4D7", width, height }}>
-            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'92%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
+        <div className="m-0 vh-100 row justify-content-center pt-2" style={{ backgroundColor: "#83C4D7", width, height }}>
+            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'80%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
                 <div className="row">
                     <div className="col-8">
                         <img src={otrascargasdanio} width="100%" />
@@ -44,7 +44,7 @@ export const CargarDanio = () => {
 
                 </div>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6  mt-5">
                         <div className="float-md-left">
                                 <button
                                 className="button"
@@ -57,7 +57,7 @@ export const CargarDanio = () => {
                     </div>
                     
                     <div className="col-6">
-                    <div className="float-md-right">
+                    <div className="float-md-right  mt-5">
                     <button
                             className="button"
                             onClick={irSiguiente}

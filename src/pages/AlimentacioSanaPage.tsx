@@ -21,8 +21,9 @@ export const AlimentacioSanaPage = () => {
     </p>);
   return (
     <div style={{backgroundColor:"#83C4D7",height, paddingTop:"4%"}}>
+          <div style={{fontSize:40,color:'black',fontWeight:'bold', textAlign:'center'}}>ALIMENTACIÓN SALUDABLE</div>
       <div className="container">
-        <div className="row align-items-center" style={{height:height-200, backgroundColor:"#1F4C4F",borderRadius:50}}>
+        <div className="row align-items-center" style={{height:height-300, backgroundColor:"#1F4C4F",borderRadius:50}}>
           <div className="col-6">
             <div style={{color:"white",fontSize:25, textAlign:'justify' }}>{text}</div>
           </div>

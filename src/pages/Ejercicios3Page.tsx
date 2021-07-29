@@ -80,7 +80,7 @@ export const Ejercicios3Page = () => {
       </div>
       <div className="divcontenido">
         <div className="divImagen">
-          <img src={niniosImg} width="100%" />
+          <img src={niniosImg} width="100%"  className="imagenesCuadros" />
         </div>
         <div className="divf">
           <div className="divtexto">

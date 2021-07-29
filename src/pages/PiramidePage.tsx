@@ -39,12 +39,12 @@ export const PiramidePage = () => {
         >
           <img
             src={piramideImg}
-            style={{ position: "absolute", height: height - 120,marginLeft:90}}
+            style={{ position: "absolute", height: height - 130,marginLeft:90}}
           />
         </div>
         <div className="col-5" >
           <div
-            style={{ display:'flex', flexDirection:'column',justifyContent:'space-evenly',height:height-120}}
+            style={{ display:'flex', flexDirection:'column',justifyContent:'space-evenly',height:height-130, marginLeft:50}}
           >
             <div>
               <button
@@ -160,12 +160,13 @@ export const PiramidePage = () => {
           </div>
         </div>
       </div>
-      <div className="container" style={{paddingBottom:15}}>
+      <div className="container" style={{paddingBottom:20}}>
         <div className="row" >
           <div className="col align-self-start">
             <button
               className="button"
               style={{
+                marginTop:0
                 //borderRadius: 8,
                 //backgroundColor: "#c9dee6",
                 //borderColor: "transparent",
@@ -180,6 +181,7 @@ export const PiramidePage = () => {
             <button
               className="button"
               style={{
+                marginTop:0
                 //borderRadius: 8,
                 //backgroundColor: "#c9dee6",
                 //borderColor: "transparent",

@@ -76,13 +76,12 @@ export const Ejercicios1Page = () => {
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
         >
-          {" "}
           <img src={playImg} width="15%" /> VER VIDEO
         </button>
       </div>
       <div className="divcontenido">
         <div className="divImagen">
-          <img src={niniosImg} width="100%" />
+          <img src={niniosImg} width="100%" className="imagenesCuadros"/>
         </div>
         <div className="divf">
           <div className="divtexto">

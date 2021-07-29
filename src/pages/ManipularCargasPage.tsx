@@ -18,7 +18,7 @@ export const ManipularCargas = () => {
   };
   return (
     <div
-      className="m-0 vh-100 row justify-content-center align-items-center"
+      className="m-0 vh-100 row justify-content-center pt-3 "
       style={{ backgroundColor: "#83C4D7", width, height }}
     >
       <div
@@ -26,13 +26,14 @@ export const ManipularCargas = () => {
         style={{
           backgroundColor: "#2A728B",
           width: "65%",
+          height:"80%",
           borderRadius: "30px",
           borderStyle: "solid",
           borderColor: "white",
           borderWidth: "2px",
         }}
       >
-        <div className="row justify-content-center align-items-center">
+        <div className="row justify-content-center ">
           <div>
             <h1 style={{ color: "white" }}>
               <b>¿QUÉ ES MANIPULAR CARGAS?</b>

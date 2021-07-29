@@ -16,8 +16,8 @@ export const ManipularCargasS = () => {
         history.push("/ManipulacionCargas");
       }
     return (
-        <div className="m-0 vh-100 row justify-content-center align-items-center" style={{ backgroundColor: "#83C4D7", width, height }}>
-            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'92%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
+        <div className="m-0 vh-100 row justify-content-center pt-3" style={{ backgroundColor: "#83C4D7", width, height }}>
+            <div className="col-auto p-5 text-center" style={{ backgroundColor: '#2A728B', width: '90%', height:'90%', borderRadius:'30px', borderStyle: 'solid', borderColor:'white', borderWidth: '4px'}}>
                 <div className="row">
                     <div className="container">
                         <img src={manipularcargas} width="75%" />

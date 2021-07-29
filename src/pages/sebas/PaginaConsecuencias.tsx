@@ -52,7 +52,7 @@ export const PaginaConsecuencias = () => {
         style={{
           backgroundColor: "#1F4C4F",
           width: "90%",
-          height: "75%",
+          height: "70%",
           borderRadius: "30px",
         }}
       >
@@ -153,7 +153,7 @@ export const PaginaConsecuencias = () => {
         </div>
       </div>
 
-      <div className="row">
+      <div className="row pb-5">
         <div className="col-6">
           <div className="float-md-left">
             <button className="button" onClick={irAnterior} id="anterior">

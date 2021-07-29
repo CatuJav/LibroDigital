@@ -32,7 +32,7 @@ export const Ejercicios2Page = () => {
           </div>
         </div>
         <div className="divf">
-          <img src={niniosImg} width="100%" />
+          <img src={niniosImg} width="100%"  className="imagenesCuadros"/>
         </div>
       </div>
       <div
