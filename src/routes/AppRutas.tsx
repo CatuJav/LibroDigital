@@ -28,6 +28,8 @@ import { UsoChumbi1 } from "../pages/conte/UsoChumbi1";
 import { UsoChumbi2 } from "../pages/conte/UsoChumbi2";
 import { PupitrePage } from "../pages/efejotajumbo/PupitrePage";
 import { CuidadoPage } from "../pages/efejotajumbo/CuidadoPage";
+import { CreditosPage } from "../pages/catu/CreditosPage";
+import { BibliografiaPage } from "../pages/catu/BibliografiaPage";
 
 export const AppRutas = () => {
   return (
@@ -39,6 +41,8 @@ export const AppRutas = () => {
           <Route path="/sana" component={AlimentacioSanaPage} />
           <Route path="/piramide" component={PiramidePage} />
           <Route path="/usoadecuado" component={PaginaUsoAdecuado} />
+          <Route path="/creditos" component={CreditosPage} />
+          <Route path="/bibliografia" component={BibliografiaPage} />
 
 
 

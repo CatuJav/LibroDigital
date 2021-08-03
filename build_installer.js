@@ -12,7 +12,7 @@ const msiCreator= new MSICreator({
     manufacturer:'Proyecto de vinculación',
     name:'Cuidados de mi cuerpo',
     version:'1.0.0',
-    appIconPath:'./libro-win32-x64/resources/app/public/iconoInicial.ico',
+    appIconPath:'./libro-win32-x64/resources/app/src/assets/iconoInicial.ico',
     ui:{
         chooseDirectory:true
     }

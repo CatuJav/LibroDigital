@@ -13,7 +13,7 @@ export const PaginaUsoAdecuado = () => {
     //console.log('clic')
   };
   const irSiguiente = () => {
-    history.push("/");
+    history.push("/bibliografia");
     //console.log('clic')
   };
 
@@ -57,7 +57,7 @@ export const PaginaUsoAdecuado = () => {
         </div>
         <div className="">
           <button className="button" onClick={irSiguiente}>
-            FIN{" "}
+            SIGUIENTE{" "}
           </button>
         </div>
       </div>
